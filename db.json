@@ -1,0 +1,23 @@
+{
+  "fruits": [
+    {
+      "id": "1",
+      "name": "Blueberry",
+      "price": 15000,
+      "image": "https://emojicdn.elk.sh/🫐"
+    },
+    {
+      "id": "2",
+      "name": "Strawberry",
+      "price": 12000,
+      "image": "https://emojicdn.elk.sh/🍓"
+    },
+    {
+      "id": "3",
+      "name": "Grapes",
+      "price": 10000,
+      "image": "https://emojicdn.elk.sh/🍇"
+    }
+  ],
+  "history": []
+}
