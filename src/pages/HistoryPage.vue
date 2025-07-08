@@ -24,7 +24,7 @@ const history = ref([])
 
 onMounted(async () => {
   try {
-    const res = await fetch('http://localhost:3000/history')
+    const res = await fetch('https://fruit-json-api-production.up.railway.app/history')
     history.value = await res.json()
   } catch (err) {
     console.error('Gagal ambil data history:', err)

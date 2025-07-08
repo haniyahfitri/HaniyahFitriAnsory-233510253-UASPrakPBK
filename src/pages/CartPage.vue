@@ -42,7 +42,7 @@ const checkout = async () => {
   }
 
   try {
-    await fetch('http://localhost:3000/history', {
+    await fetch('https://fruit-json-api-production.up.railway.app/history', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(historyData)

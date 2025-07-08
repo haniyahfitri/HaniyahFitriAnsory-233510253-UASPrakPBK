@@ -6,9 +6,9 @@ export const useFruitStore = defineStore('fruit', () => {
 
   const fetchFruits = async () => {
     try {
-      const res = await fetch('http://localhost:3000/fruits')
+      const res = await fetch('https://fruit-json-api-production.up.railway.app/fruits')
       const data = await res.json()
-      fruits.value = data  // <-- ini dibetulin
+      fruits.value = data 
     } catch (err) {
       console.error('Gagal ambil data buah:', err)
     }
